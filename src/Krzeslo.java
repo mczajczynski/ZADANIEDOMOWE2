@@ -4,7 +4,11 @@ public class Krzeslo {
     String kolor;
     String ksztalt;
 
-    Krzeslo(){
+    Krzeslo(int ng, String kl, String kz){
+
+        nogi = ng;
+        kolor = kl;
+        ksztalt = kz;
 
     }
 }
